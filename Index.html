@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saanvi Thakur Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Futura:wght@300;500&family=Gloock&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body {
+            font-family: 'Futura', sans-serif;
+        }
+
+        .navbar {
+            background-color: #002366; /* Dark Blue */
+        }
+
+        .navbar a {
+            color: #FFD700 !important; /* Yellow */
+            font-size: 1.2rem;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+            color: #FFC107 !important; /* Slightly lighter yellow */
+        }
+
+        .profile-section {
+            background-color: #FFD700; /* Yellow */
+            padding: 40px 0;
+            text-align: center;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: #002366 2px;
+        }
+
+        .divider {
+            background-color: #002366; /* Dark Blue */
+            color: #FFD700; /* Yellow */
+            font-family: 'Gloock', serif;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .info-section {
+            background-color: #FFD700; /* Yellow background */
+            padding: 40px 0;
+        }
+
+        .section-box {
+            background-color: #002366; /* Dark Blue */
+            color: #FFD700; /* Yellow */
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-weight: 500; /* Futura 65 Medium */
+            text-transform: uppercase;
+            font-size: 1.3rem;
+        }
+
+        .section-content {
+            font-weight: 300; /* Futura 45 Light */
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .work-section {
+            background-color: #FFD700; /* Yellow */
+            padding: 40px 0;
+        }
+
+        .work-img {
+            width: 40%;
+            height: auto;
+            
+            border-radius: 10px;
+        }
+
+        .contact-section {
+            background-color: #002366; /* Dark Blue */
+            color: #FFD700; /* Yellow */
+            font-family: 'Futura', sans-serif;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .contact-section h4 {
+            font-family: 'Gloock', serif;
+        }
+
+        .contact-info {
+            font-size: 1rem;
+            font-weight: 300; /* Futura 45 Light */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand text-warning" href="#">Saanvi Thakur</a>
+            <div>
+                <a class="nav-link d-inline" href="#skills">Skills</a>
+                <a class="nav-link d-inline" href="#work">Work</a>
+                <a class="nav-link d-inline" href="#about">About Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <div class="profile-section">
+        <img src="portfolio25/images 2/Screenshot 2024-11-29 at 10.09.51 PM.png" alt="Saanvi Thakur" class="profile-pic">
+    </div>
+
+    <!-- Divider Section -->
+    <div class="divider">
+        <h3>About Me</h3>
+    </div>
+
+    <!-- Info Section in Boxes -->
+    <div class="container text-center info-section" id="about">
+        <div class="row">
+            <!-- About Me Section -->
+            <div class="col-md-4">
+                <div class="section-box">
+                    <h5 class="section-title">About Me</h5>
+                    <p class="section-content">Age: 19</p>
+                    <p class="section-content">Studying at: Atlas Skilltech University</p>
+                    <p class="section-content">Year: 2nd Year Bachelor's in Design</p>
+                    <p class="section-content">Specialization: Communication Designer</p>
+                </div>
+            </div>
+
+            <!-- Hobbies and Skills Section -->
+            <div class="col-md-4">
+                <div class="section-box">
+                    <h5 class="section-title">Hobbies & Skills</h5>
+                    <p class="section-content"><strong>Hobbies:</strong> Painting, Writing, Reading, Designing</p>
+                    <p class="section-content"><strong>Skills:</strong> Graphic Design, Illustrations, Coding</p>
+                </div>
+            </div>
+
+            <!-- Softwares Section -->
+            <div class="col-md-4">
+                <div class="section-box">
+                    <h5 class="section-title">Softwares</h5>
+                    <div>
+                        <img src="portfolio25/images 2/image.png" alt="Photoshop Icon" class="work-img">
+                        <img src="portfolio25/images 2/AI..png" alt="Illustrator Icon" class="work-img">
+                        <img src="portfolio25/images 2/image copy.png" alt="Indesign Icon" class="work-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Work Divider -->
+    <div class="divider">
+        <h3>My Work</h3>
+    </div>
+
+    <!-- Work Section -->
+    <div class="container text-center work-section" id="work">
+        <div class="row">
+            <div class="col-md-4"><img src="portfolio25/images 2/romanticism Poster CD.png" alt="Work 1" class="work-img"></div>
+            <div class="col-md-4"><img src="portfolio25/images 2/Screenshot 2024-12-04 at 2.01.27 PM.png" alt="Work 2" class="work-img"></div>
+            <div class="col-md-4"><img src="portfolio25/images 2/FINAL 2 MOVIE POSTER .jpg" alt="Work 3" class="work-img"></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-4"><img src="portfolio25/images 2/3D MOCKUP OF BOOK_.png" alt="Work 4" class="work-img"></div>
+            <div class="col-md-4"><img src="portfolio25/images 2/claire de lune poster.png" alt="Work 5" class="work-img"></div>
+            <div class="col-md-4"><img src="portfolio25/images 2/Artboard 8.png" alt="Work 6" class="work-img"></div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-section">
+        <h4>Contact Me</h4>
+        <p class="contact-info">Email: saanvithakur@gmail.com</p>
+        <p class="contact-info">Phone: +91 9009778625</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
